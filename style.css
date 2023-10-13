@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aqua;
+    
+}
+#counter{
+    box-shadow: 5px 5px 5px;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+   
+}
+
+#count{
+    font-size: 60px;
+
+}
+#btn1{
+    color: hsl(145, 75%, 51%);
+    background-color: hsl(137, 78%, 2%);
+    border-radius: 10px;
+    height: 30px;
+    transition: all 2s;
+}
+    
+#btn:hover{
+    color:hsl(49, 84%, 50%);
+    background-color: #020803;
+}
+#btn2{
+    color: hsl(138, 75%, 62%);
+    background-color: hwb(17 1% 96%);
+    border-radius: 10px;
+    height: 30px;
+    transition: all 2s;
+    align-items: first baseline;
+    
+    
+}
+#btn3{
+    color: hsl(140, 71%, 55%);
+    background-color: hwb(223 0% 97%);
+    border-radius: 10px;
+    height: 30px;
+    transition: all 2s;
+    vertical-align: bottom;
+    
+}
+    
